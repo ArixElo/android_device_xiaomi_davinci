@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# MIUICamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Camera motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor \
