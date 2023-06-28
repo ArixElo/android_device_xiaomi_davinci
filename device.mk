@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The tequilaOS
+# Copyright (C) 2023 The PixysOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-tequila
+    $(LOCAL_PATH)/overlay-pixys
 
 # Power
 PRODUCT_COPY_FILES += \
